@@ -18,13 +18,13 @@ class MainActivity : AppCompatActivity() {
         Log.d("kotlintest", "年は" + animal1.age + "歳です。")
 
         animal1.think()  // 太郎は考える（ログ出力）
-        Log.d("kotlintest", "私は" + animal1.hobby + "について考える。")
+        Log.d("kotlintest", "私は" + animal1.hobby + "について考える。"+"忙しいです。")
 
         animal2.say()  // 次郎は話す（ログ出力）
         Log.d("kotlintest", "私の名前は" + animal2.name + "です。")
         Log.d("kotlintest", "年は" + animal2.age + "歳です。")
 
         animal2.think()  // 次郎は考える（ログ出力）
-        Log.d("kotlintest", "私は" + animal2.hobby + "について考える。")
+        Log.d("kotlintest", "私は" + animal2.hobby + "について考える。"+"退屈です。")
     }
 }

@@ -10,12 +10,9 @@ class Human: Animal, Thinkable {
 
     //Animalクラスのメソッドをオーバーライド
     override fun say() {
-        Log.d("kotlintest", "人間です。")
-        Log.d("kotlintest", "ホモサピエンスです。")
+        Log.d("kotlintest", this.name +"(" +this.age + "歳)")
     }
 
     override fun think() {
-        Log.d("kotlintest", "忙しいです。")
-        Log.d("kotlintest", "退屈です。")
     }
 }
